@@ -96,3 +96,8 @@ Rename containers names with prefix/sufix or
 ```
 docker system prune
 ```
+
+Database connection:
+```
+DATABASE_URL=mysql://user:secret@mysql:3306/database
+```
