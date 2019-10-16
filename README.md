@@ -52,7 +52,7 @@ composer create-project symfony/skeleton symfony_tmp
 https://symfony.com/download
 ```
 wget https://get.symfony.com/cli/installer -O - | bash
-mv /home/dev/.symfony/bin/symfony /usr/local/bin/symfony
+sudo mv /home/dev/.symfony/bin/symfony /usr/local/bin/symfony
 symfony new --full symfony_tmp
 ```
 
