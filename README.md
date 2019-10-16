@@ -74,8 +74,8 @@ composer require --dev friendsofphp/php-cs-fixer
 ```
 
 ## phpStorm
+Configure CLI interpreter from docker compose:
 
-```
+https://medium.com/@bufferings/phpstorm-docker-and-cakephp-development-9327ee767838
 
-
-
+An active quality tools from interpreter:
