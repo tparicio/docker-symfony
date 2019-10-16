@@ -48,6 +48,14 @@ And create a project symfony with composer inside a temporal folder:
 composer create-project symfony/skeleton symfony_tmp
 ```
 
+...or with symfony tool:
+https://symfony.com/download
+```
+wget https://get.symfony.com/cli/installer -O - | bash
+mv /home/dev/.symfony/bin/symfony /usr/local/bin/symfony
+symfony new --full symfony_tmp
+```
+
 Move project from temporal folder to project root folder and delete empy temporal folder:
 ```
 cp -Rf /var/www/site/symfony_tmp/. .
