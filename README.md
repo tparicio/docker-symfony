@@ -87,3 +87,12 @@ Configure CLI interpreter from docker compose:
 https://medium.com/@bufferings/phpstorm-docker-and-cakephp-development-9327ee767838
 
 An active quality tools from interpreter:
+
+
+## troubleshooting
+Where error because previous containers with same names:
+Rename containers names with prefix/sufix or
+
+```
+docker system prune
+```
