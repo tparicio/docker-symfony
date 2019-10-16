@@ -1,4 +1,8 @@
-# Build
+# docker-symfony
+
+A boilerplate for develop a symfony project with docker
+
+## Build
 
 Set up with:
 
@@ -12,7 +16,7 @@ Launch containers with:
 docker-compose up -d
 ```
 
-# Bash
+## Bash
 
 For get bash as root inside a docker container:
 
@@ -55,10 +59,22 @@ Load localhost in your browser and symfony welcome page should be loaded
 http://localhost/
 
 
-# Post update
+## Post update
 
+Clear cache:
 ```
 php bin/console cache:clear
+```
+
+Install quality tools:
+```
+composer require --dev phpmd/phpmd
+composer require --dev squizlabs/php_codesniffer
+composer require --dev friendsofphp/php-cs-fixer
+```
+
+## phpStorm
+
 ```
 
 
